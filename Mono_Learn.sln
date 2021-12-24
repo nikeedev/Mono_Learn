@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono_Learn", "Mono_Learn\Mono_Learn.csproj", "{214A6844-2A7B-488C-A605-257504871B33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{214A6844-2A7B-488C-A605-257504871B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214A6844-2A7B-488C-A605-257504871B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214A6844-2A7B-488C-A605-257504871B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214A6844-2A7B-488C-A605-257504871B33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AC3FA59-B2F3-4FD2-9D2B-8BCD925EF52F}
+	EndGlobalSection
+EndGlobal
