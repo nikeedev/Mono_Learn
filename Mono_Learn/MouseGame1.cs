@@ -17,7 +17,7 @@ namespace Mono_Learn
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            IsMouseVisible = true;
+            IsMouseVisible = false;
             _graphics.PreferredBackBufferWidth = 800;
             _graphics.PreferredBackBufferHeight = 600;
             _graphics.ApplyChanges();
@@ -36,7 +36,7 @@ namespace Mono_Learn
 
             // TODO: use this.Content to load your game content 
 
-            mouseTexture = Content.Load<Texture2D>("ball");
+            mouseTexture = Content.Load<Texture2D>("big_cursor");
 
         }
 
@@ -49,8 +49,8 @@ namespace Mono_Learn
 
             MouseState mouse = Mouse.GetState();
 
-            position.X = mouse.X - 32;
-            position.Y = mouse.Y - 32;
+            position.X = mouse.X;
+            position.Y = mouse.Y;
 
             base.Update(gameTime);
         }
